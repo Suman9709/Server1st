@@ -2,6 +2,11 @@
 let http = require("http");
 let fs = require("fs");
 
+let {Buffer} = require("buffer");
+buf=Buffer.from("Hello");
+console.log(buf);
+
+
 console.log("starting server");
 http.createServer((req, res) => {
     // console.log({Headers: req.headers})
