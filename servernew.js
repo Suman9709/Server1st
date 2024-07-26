@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
     res.send("about");
 });
-
+// health check endpoint
 app.get("/health",(req, res) => {
     res.send("OK");
 })
