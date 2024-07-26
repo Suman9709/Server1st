@@ -51,3 +51,15 @@ const file = fs.readdirSync("folderPath")
 console.log(file);
 // fs.rmdirSync("exampleDir");
 // console.log("directrory delete successfully");
+
+// Files
+
+// C - fs.writeFile
+// R - fs.readFile
+// U - fs.appendFile
+// D - fs.unlink
+
+// FOLDER / DIR
+// C - fs.mkdir
+// R - fs.readdir
+// D - fs.rmdir
